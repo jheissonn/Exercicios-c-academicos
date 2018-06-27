@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using provafinalc.lista3;
+
 
 namespace provafinalc
 {
@@ -110,6 +112,19 @@ namespace provafinalc
         {
             Form exercicio1a3 = new lista31bimexer1a3();
             exercicio1a3.ShowDialog();
+        }
+
+        private void exercicios4A6ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form exercicio4a6 = new lista31bimexer4a6();
+            exercicio4a6.ShowDialog();
+            
+        }
+
+        private void exericios5A6ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form exer7a9 = new lista31bimexer7a9();
+            exer7a9.ShowDialog();
         }
     }
 }
