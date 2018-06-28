@@ -50,6 +50,8 @@
             this.trabalhosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.exercicios4A6ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.exericios5A6ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.exercicios10A12ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.exercicios13A15ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -197,7 +199,9 @@
             this.lista31bimToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.exercicios1A3ToolStripMenuItem,
             this.exercicios4A6ToolStripMenuItem,
-            this.exericios5A6ToolStripMenuItem});
+            this.exericios5A6ToolStripMenuItem,
+            this.exercicios10A12ToolStripMenuItem,
+            this.exercicios13A15ToolStripMenuItem});
             this.lista31bimToolStripMenuItem.Name = "lista31bimToolStripMenuItem";
             this.lista31bimToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.lista31bimToolStripMenuItem.Text = "lista 3 1bim";
@@ -229,6 +233,20 @@
             this.exericios5A6ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.exericios5A6ToolStripMenuItem.Text = "exericios 7 a 9";
             this.exericios5A6ToolStripMenuItem.Click += new System.EventHandler(this.exericios5A6ToolStripMenuItem_Click);
+            // 
+            // exercicios10A12ToolStripMenuItem
+            // 
+            this.exercicios10A12ToolStripMenuItem.Name = "exercicios10A12ToolStripMenuItem";
+            this.exercicios10A12ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.exercicios10A12ToolStripMenuItem.Text = "exercicios 10 a 12";
+            this.exercicios10A12ToolStripMenuItem.Click += new System.EventHandler(this.exercicios10A12ToolStripMenuItem_Click);
+            // 
+            // exercicios13A15ToolStripMenuItem
+            // 
+            this.exercicios13A15ToolStripMenuItem.Name = "exercicios13A15ToolStripMenuItem";
+            this.exercicios13A15ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.exercicios13A15ToolStripMenuItem.Text = "exercicios 13 a 15";
+            this.exercicios13A15ToolStripMenuItem.Click += new System.EventHandler(this.exercicios13A15ToolStripMenuItem_Click);
             // 
             // Formprincipalfinal
             // 
@@ -271,6 +289,8 @@
         private System.Windows.Forms.ToolStripMenuItem exercicios1A3ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem exercicios4A6ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem exericios5A6ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem exercicios10A12ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem exercicios13A15ToolStripMenuItem;
     }
 }
 

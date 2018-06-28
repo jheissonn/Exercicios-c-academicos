@@ -126,5 +126,17 @@ namespace provafinalc
             Form exer7a9 = new lista31bimexer7a9();
             exer7a9.ShowDialog();
         }
+
+        private void exercicios10A12ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form exer10a12 = new lista31bimexer10a12();
+            exer10a12.ShowDialog();
+        }
+
+        private void exercicios13A15ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form exer13a15 = new lista31bimexer13a15();
+            exer13a15.ShowDialog();
+        }
     }
 }

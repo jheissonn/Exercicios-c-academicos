@@ -123,6 +123,12 @@
     <Compile Include="lista2exer11a13.Designer.cs">
       <DependentUpon>lista2exer11a13.cs</DependentUpon>
     </Compile>
+    <Compile Include="lista3\lista31bimexer10a12.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="lista3\lista31bimexer10a12.Designer.cs">
+      <DependentUpon>lista31bimexer10a12.cs</DependentUpon>
+    </Compile>
     <Compile Include="lista3\lista31bimexer1a3.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -181,6 +187,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="lista2exer11a13.resx">
       <DependentUpon>lista2exer11a13.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="lista3\lista31bimexer10a12.resx">
+      <DependentUpon>lista31bimexer10a12.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="lista3\lista31bimexer1a3.resx">
       <DependentUpon>lista31bimexer1a3.cs</DependentUpon>
