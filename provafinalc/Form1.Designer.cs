@@ -29,7 +29,6 @@
         private void InitializeComponent()
         {
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
-            this.introduçãoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.listasDeExercicioToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.primeiraListaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.exercicio1A3ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -47,38 +46,35 @@
             this.desafioToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.lista31bimToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.exercicios1A3ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.trabalhosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.exercicios4A6ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.exericios5A6ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.exercicios10A12ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.exercicios13A15ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.listaDeLoopToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.exercicios1A4ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.exercicio5A8ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.exercicios9A12ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.exercicios13A19ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // menuStrip1
             // 
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.introduçãoToolStripMenuItem,
-            this.listasDeExercicioToolStripMenuItem,
-            this.trabalhosToolStripMenuItem});
+            this.listasDeExercicioToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(800, 24);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
-            // introduçãoToolStripMenuItem
-            // 
-            this.introduçãoToolStripMenuItem.Name = "introduçãoToolStripMenuItem";
-            this.introduçãoToolStripMenuItem.Size = new System.Drawing.Size(77, 20);
-            this.introduçãoToolStripMenuItem.Text = "introdução";
-            // 
             // listasDeExercicioToolStripMenuItem
             // 
             this.listasDeExercicioToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.primeiraListaToolStripMenuItem,
             this.lista21bimToolStripMenuItem,
-            this.lista31bimToolStripMenuItem});
+            this.lista31bimToolStripMenuItem,
+            this.listaDeLoopToolStripMenuItem});
             this.listasDeExercicioToolStripMenuItem.Name = "listasDeExercicioToolStripMenuItem";
             this.listasDeExercicioToolStripMenuItem.Size = new System.Drawing.Size(110, 20);
             this.listasDeExercicioToolStripMenuItem.Text = "listas de exercicio";
@@ -214,12 +210,6 @@
             this.exercicios1A3ToolStripMenuItem.Text = "exercicios 1 a 3";
             this.exercicios1A3ToolStripMenuItem.Click += new System.EventHandler(this.exercicios1A3ToolStripMenuItem_Click);
             // 
-            // trabalhosToolStripMenuItem
-            // 
-            this.trabalhosToolStripMenuItem.Name = "trabalhosToolStripMenuItem";
-            this.trabalhosToolStripMenuItem.Size = new System.Drawing.Size(68, 20);
-            this.trabalhosToolStripMenuItem.Text = "trabalhos";
-            // 
             // exercicios4A6ToolStripMenuItem
             // 
             this.exercicios4A6ToolStripMenuItem.Name = "exercicios4A6ToolStripMenuItem";
@@ -245,8 +235,47 @@
             // 
             this.exercicios13A15ToolStripMenuItem.Name = "exercicios13A15ToolStripMenuItem";
             this.exercicios13A15ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.exercicios13A15ToolStripMenuItem.Text = "exercicios 13 a 15";
+            this.exercicios13A15ToolStripMenuItem.Text = "exercicios 13 a 16";
             this.exercicios13A15ToolStripMenuItem.Click += new System.EventHandler(this.exercicios13A15ToolStripMenuItem_Click);
+            // 
+            // listaDeLoopToolStripMenuItem
+            // 
+            this.listaDeLoopToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.exercicios1A4ToolStripMenuItem,
+            this.exercicio5A8ToolStripMenuItem,
+            this.exercicios9A12ToolStripMenuItem,
+            this.exercicios13A19ToolStripMenuItem});
+            this.listaDeLoopToolStripMenuItem.Name = "listaDeLoopToolStripMenuItem";
+            this.listaDeLoopToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.listaDeLoopToolStripMenuItem.Text = "Lista de loop";
+            // 
+            // exercicios1A4ToolStripMenuItem
+            // 
+            this.exercicios1A4ToolStripMenuItem.Name = "exercicios1A4ToolStripMenuItem";
+            this.exercicios1A4ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.exercicios1A4ToolStripMenuItem.Text = "exercicios 1 a 4";
+            this.exercicios1A4ToolStripMenuItem.Click += new System.EventHandler(this.exercicios1A4ToolStripMenuItem_Click);
+            // 
+            // exercicio5A8ToolStripMenuItem
+            // 
+            this.exercicio5A8ToolStripMenuItem.Name = "exercicio5A8ToolStripMenuItem";
+            this.exercicio5A8ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.exercicio5A8ToolStripMenuItem.Text = "exercicio 5 a 8";
+            this.exercicio5A8ToolStripMenuItem.Click += new System.EventHandler(this.exercicio5A8ToolStripMenuItem_Click);
+            // 
+            // exercicios9A12ToolStripMenuItem
+            // 
+            this.exercicios9A12ToolStripMenuItem.Name = "exercicios9A12ToolStripMenuItem";
+            this.exercicios9A12ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.exercicios9A12ToolStripMenuItem.Text = "exercicios 9 a 12";
+            this.exercicios9A12ToolStripMenuItem.Click += new System.EventHandler(this.exercicios9A12ToolStripMenuItem_Click);
+            // 
+            // exercicios13A19ToolStripMenuItem
+            // 
+            this.exercicios13A19ToolStripMenuItem.Name = "exercicios13A19ToolStripMenuItem";
+            this.exercicios13A19ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.exercicios13A19ToolStripMenuItem.Text = "exercicios 13 a 19";
+            this.exercicios13A19ToolStripMenuItem.Click += new System.EventHandler(this.exercicios13A19ToolStripMenuItem_Click);
             // 
             // Formprincipalfinal
             // 
@@ -268,10 +297,8 @@
         #endregion
 
         private System.Windows.Forms.MenuStrip menuStrip1;
-        private System.Windows.Forms.ToolStripMenuItem introduçãoToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem listasDeExercicioToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem primeiraListaToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem trabalhosToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem exercicio1A3ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem exercicio4A6ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem exercicio7A9ToolStripMenuItem;
@@ -291,6 +318,11 @@
         private System.Windows.Forms.ToolStripMenuItem exericios5A6ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem exercicios10A12ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem exercicios13A15ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem listaDeLoopToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem exercicios1A4ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem exercicio5A8ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem exercicios9A12ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem exercicios13A19ToolStripMenuItem;
     }
 }
 

@@ -1,4 +1,4 @@
-﻿namespace provafinalc
+﻿namespace provafinalc.lista
 {
     partial class exercicio4a6
     {

@@ -45,22 +45,46 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="exer7a9.cs">
+    <Compile Include="listaloops\loops13a19.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="exer7a9.Designer.cs">
+    <Compile Include="listaloops\loops13a19.Designer.cs">
+      <DependentUpon>loops13a19.cs</DependentUpon>
+    </Compile>
+    <Compile Include="listaloops\loopsexer1a4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="listaloops\loopsexer1a4.Designer.cs">
+      <DependentUpon>loopsexer1a4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="listaloops\loopsexer5a8.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="listaloops\loopsexer5a8.Designer.cs">
+      <DependentUpon>loopsexer5a8.cs</DependentUpon>
+    </Compile>
+    <Compile Include="listaloops\loopsexer9a12.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="listaloops\loopsexer9a12.Designer.cs">
+      <DependentUpon>loopsexer9a12.cs</DependentUpon>
+    </Compile>
+    <Compile Include="lista\exer7a9.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="lista\exer7a9.Designer.cs">
       <DependentUpon>exer7a9.cs</DependentUpon>
     </Compile>
-    <Compile Include="exercicio10.cs">
+    <Compile Include="lista\exercicio10.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="exercicio10.Designer.cs">
+    <Compile Include="lista\exercicio10.Designer.cs">
       <DependentUpon>exercicio10.cs</DependentUpon>
     </Compile>
-    <Compile Include="exercicio4a6.cs">
+    <Compile Include="lista\exercicio4a6.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="exercicio4a6.Designer.cs">
+    <Compile Include="lista\exercicio4a6.Designer.cs">
       <DependentUpon>exercicio4a6.cs</DependentUpon>
     </Compile>
     <Compile Include="Form1.cs">
@@ -69,58 +93,58 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="lista1a3.cs">
+    <Compile Include="lista\lista1a3.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="lista1a3.Designer.cs">
+    <Compile Include="lista\lista1a3.Designer.cs">
       <DependentUpon>lista1a3.cs</DependentUpon>
     </Compile>
-    <Compile Include="lista1bim7a10.cs">
+    <Compile Include="lista\lista1bim7a10.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="lista1bim7a10.Designer.cs">
+    <Compile Include="lista\lista1bim7a10.Designer.cs">
       <DependentUpon>lista1bim7a10.cs</DependentUpon>
     </Compile>
-    <Compile Include="lista21bim1a3.cs">
+    <Compile Include="lista2\lista21bim1a3.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="lista21bim1a3.Designer.cs">
+    <Compile Include="lista2\lista21bim1a3.Designer.cs">
       <DependentUpon>lista21bim1a3.cs</DependentUpon>
     </Compile>
-    <Compile Include="lista21bim4a6.cs">
+    <Compile Include="lista2\lista21bim4a6.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="lista21bim4a6.Designer.cs">
+    <Compile Include="lista2\lista21bim4a6.Designer.cs">
       <DependentUpon>lista21bim4a6.cs</DependentUpon>
     </Compile>
-    <Compile Include="lista21bimdesafio.cs">
+    <Compile Include="lista2\lista21bimdesafio.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="lista21bimdesafio.Designer.cs">
+    <Compile Include="lista2\lista21bimdesafio.Designer.cs">
       <DependentUpon>lista21bimdesafio.cs</DependentUpon>
     </Compile>
-    <Compile Include="lista21bimexer14a16.cs">
+    <Compile Include="lista2\lista21bimexer14a16.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="lista21bimexer14a16.Designer.cs">
+    <Compile Include="lista2\lista21bimexer14a16.Designer.cs">
       <DependentUpon>lista21bimexer14a16.cs</DependentUpon>
     </Compile>
-    <Compile Include="lista21bimexer2021.cs">
+    <Compile Include="lista2\lista21bimexer2021.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="lista21bimexer2021.Designer.cs">
+    <Compile Include="lista2\lista21bimexer2021.Designer.cs">
       <DependentUpon>lista21bimexer2021.cs</DependentUpon>
     </Compile>
-    <Compile Include="lista2bim117a19.cs">
+    <Compile Include="lista2\lista2bim117a19.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="lista2bim117a19.Designer.cs">
+    <Compile Include="lista2\lista2bim117a19.Designer.cs">
       <DependentUpon>lista2bim117a19.cs</DependentUpon>
     </Compile>
-    <Compile Include="lista2exer11a13.cs">
+    <Compile Include="lista2\lista2exer11a13.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="lista2exer11a13.Designer.cs">
+    <Compile Include="lista2\lista2exer11a13.Designer.cs">
       <DependentUpon>lista2exer11a13.cs</DependentUpon>
     </Compile>
     <Compile Include="lista3\lista31bimexer10a12.cs">
@@ -128,6 +152,12 @@
     </Compile>
     <Compile Include="lista3\lista31bimexer10a12.Designer.cs">
       <DependentUpon>lista31bimexer10a12.cs</DependentUpon>
+    </Compile>
+    <Compile Include="lista3\lista31bimexer13a15.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="lista3\lista31bimexer13a15.Designer.cs">
+      <DependentUpon>lista31bimexer13a15.cs</DependentUpon>
     </Compile>
     <Compile Include="lista3\lista31bimexer1a3.cs">
       <SubType>Form</SubType>
@@ -149,47 +179,62 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="exer7a9.resx">
+    <EmbeddedResource Include="listaloops\loops13a19.resx">
+      <DependentUpon>loops13a19.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="listaloops\loopsexer1a4.resx">
+      <DependentUpon>loopsexer1a4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="listaloops\loopsexer5a8.resx">
+      <DependentUpon>loopsexer5a8.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="listaloops\loopsexer9a12.resx">
+      <DependentUpon>loopsexer9a12.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="lista\exer7a9.resx">
       <DependentUpon>exer7a9.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="exercicio10.resx">
+    <EmbeddedResource Include="lista\exercicio10.resx">
       <DependentUpon>exercicio10.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="exercicio4a6.resx">
+    <EmbeddedResource Include="lista\exercicio4a6.resx">
       <DependentUpon>exercicio4a6.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="lista1a3.resx">
+    <EmbeddedResource Include="lista\lista1a3.resx">
       <DependentUpon>lista1a3.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="lista1bim7a10.resx">
+    <EmbeddedResource Include="lista\lista1bim7a10.resx">
       <DependentUpon>lista1bim7a10.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="lista21bim1a3.resx">
+    <EmbeddedResource Include="lista2\lista21bim1a3.resx">
       <DependentUpon>lista21bim1a3.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="lista21bim4a6.resx">
+    <EmbeddedResource Include="lista2\lista21bim4a6.resx">
       <DependentUpon>lista21bim4a6.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="lista21bimdesafio.resx">
+    <EmbeddedResource Include="lista2\lista21bimdesafio.resx">
       <DependentUpon>lista21bimdesafio.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="lista21bimexer14a16.resx">
+    <EmbeddedResource Include="lista2\lista21bimexer14a16.resx">
       <DependentUpon>lista21bimexer14a16.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="lista21bimexer2021.resx">
+    <EmbeddedResource Include="lista2\lista21bimexer2021.resx">
       <DependentUpon>lista21bimexer2021.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="lista2bim117a19.resx">
+    <EmbeddedResource Include="lista2\lista2bim117a19.resx">
       <DependentUpon>lista2bim117a19.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="lista2exer11a13.resx">
+    <EmbeddedResource Include="lista2\lista2exer11a13.resx">
       <DependentUpon>lista2exer11a13.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="lista3\lista31bimexer10a12.resx">
       <DependentUpon>lista31bimexer10a12.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="lista3\lista31bimexer13a15.resx">
+      <DependentUpon>lista31bimexer13a15.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="lista3\lista31bimexer1a3.resx">
       <DependentUpon>lista31bimexer1a3.cs</DependentUpon>

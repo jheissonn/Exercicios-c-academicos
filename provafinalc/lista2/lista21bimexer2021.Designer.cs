@@ -1,4 +1,4 @@
-﻿namespace provafinalc
+﻿namespace provafinalc.lista2
 {
     partial class lista21bimexer2021
     {

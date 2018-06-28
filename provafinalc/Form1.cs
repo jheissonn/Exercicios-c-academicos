@@ -8,6 +8,9 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using provafinalc.lista3;
+using provafinalc.lista2;
+using provafinalc.lista;
+using provafinalc.listaloops;
 
 
 namespace provafinalc
@@ -137,6 +140,36 @@ namespace provafinalc
         {
             Form exer13a15 = new lista31bimexer13a15();
             exer13a15.ShowDialog();
+        }
+
+        private void primeiroCalculadoraToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+           
+
+        }
+
+        private void exercicios1A4ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form exer1a4 = new loopsexer1a4();
+            exer1a4.ShowDialog();
+        }
+
+        private void exercicio5A8ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form exer5a8 = new loopsexer5a8();
+            exer5a8.ShowDialog();
+        }
+
+        private void exercicios9A12ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form exer9a12 = new loopsexer9a12();
+            exer9a12.ShowDialog();
+        }
+
+        private void exercicios13A19ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form exer13a19 = new loops13a19();
+            exer13a19.ShowDialog();
         }
     }
 }

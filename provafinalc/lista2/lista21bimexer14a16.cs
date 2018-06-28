@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace provafinalc
+namespace provafinalc.lista2
 {
     public partial class lista21bimexer14a16 : Form
     {
